@@ -1,0 +1,29 @@
+<datasources-configuration xmlns:svns="http://org.wso2.securevault/configuration">  
+   <providers>
+        <provider>org.wso2.carbon.ndatasource.rdbms.RDBMSDataSourceReader</provider>
+    </providers>
+  <datasources>      
+        <datasource>
+            <name>ROLES_ACTION_DB</name>
+            <description>The datasource used for Roles and Action of users</description>
+            <jndiConfig>
+                <name>jdbc/user_role_ds</name>
+            </jndiConfig>
+            <definition type="RDBMS">
+                <configuration>
+                    <url>jdbc:postgresql://localhost:5432/user_role_db</url>
+                    <username>postgres</username>
+                    <password>root</password>
+                    <driverClassName>org.postgresql.Driver</driverClassName>
+                    <maxActive>80</maxActive>
+                    <maxWait>60000</maxWait>
+                    <minIdle>5</minIdle>
+                    <testOnBorrow>true</testOnBorrow>
+                    <defaultAutoCommit>true</defaultAutoCommit>
+                    <validationQuery>SELECT 1</validationQuery>
+                    <validationInterval>30000</validationInterval>
+                </configuration>
+            </definition>
+        </datasource>
+    </datasources>
+</datasources-configuration>
