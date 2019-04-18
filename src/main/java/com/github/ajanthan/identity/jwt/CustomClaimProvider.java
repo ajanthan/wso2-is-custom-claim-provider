@@ -20,7 +20,7 @@ import java.util.Map;
 //
 
 /**
- * CustomClaimProvider populate JWT claims of ID token from a database
+ * CustomClaimProvider populates JWT claims of ID token from a database
  */
 public class CustomClaimProvider implements ClaimProvider {
     private Log log = LogFactory.getLog(CustomClaimProvider.class);
@@ -44,7 +44,7 @@ public class CustomClaimProvider implements ClaimProvider {
              *    "rdb_role":{
              *                  "action":"admin,read"
              *               },
-             *     "spark_role":{
+             *    "spark_role":{
              *                  "action":"read"
              *                  }
              * }
