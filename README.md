@@ -31,7 +31,7 @@ Modify the host,port and database name in `url`,`username` and `password` in [co
  
 ### Step 5: Testing
  
-[Create users](https://docs.wso2.com/display/IS570/Configuring+Users#ConfiguringUsers-Addinganewuserandassigningroles) `alex` and `john` from management console and assign default `admin` role. []Create a OAuth/OpenID Connect service provider](https://docs.wso2.com/display/IS570/Adding+and+Configuring+a+Service+Provider) and get ClientID and ClientSecret for testing purpose.
+[Create users](https://docs.wso2.com/display/IS570/Configuring+Users#ConfiguringUsers-Addinganewuserandassigningroles) `alex` and `john` from management console and assign default `admin` role. [Create a OAuth/OpenID Connect service provider](https://docs.wso2.com/display/IS570/Adding+and+Configuring+a+Service+Provider) and get ClientID and ClientSecret for testing purpose.
 Get ID token by invoking following command from a terminal after updating the parameters according to registered use `alex` and service provider.
  
  ```text
