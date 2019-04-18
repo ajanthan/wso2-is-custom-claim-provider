@@ -1,4 +1,4 @@
-# wso2-is-custom-claim-retriever
+# wso2-is-custom-claim-provider
 A Custom ClaimRetriever for WSO2 Identity Server for populating JWT claims from Database
 
 ### Prerequisites
