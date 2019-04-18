@@ -10,7 +10,7 @@ Make sure followings are installed properly.
 
 
 ### Step 1: Building the extension
-Clone the this repository.
+Clone this repository.
 
 ```text
 git clone https://github.com/ajanthan/wso2-is-custom-claim-provider.git
