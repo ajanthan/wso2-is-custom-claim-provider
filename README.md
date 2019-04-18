@@ -12,11 +12,15 @@ Make sure followings are installed properly.
 ### Step 1: Building the extension
 Clone the repository
 
-``git clone https://github.com/ajanthan/wso2-is-custom-claim-provider.git``
+```text
+git clone https://github.com/ajanthan/wso2-is-custom-claim-provider.git
+```
 
 Go to `wso2-is-custom-claim-provider` directory and execute maven build command.
 
-`mvn clean install`
+ ```text
+ mvn clean install
+ ```
 
 The extension will be available in `targer` directory on successful build. Copy the extension(`custom-claim-provider-6.0.53.jar`) to WSO2_IS_HOME/repository/components/dropins/.
 
