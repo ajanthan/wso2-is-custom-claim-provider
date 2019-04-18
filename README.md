@@ -1,5 +1,5 @@
-# wso2-is-custom-claim-retriever
-This WSO2 Identity Server extension populates OpenID connect ID token with additional claims from a RDBMS. This extension is useful when claims from none userstore sources needs to be inserted into the ID token. 
+# wso2-is-custom-claim-provider
+This WSO2 Identity Server extension populates OpenID connect ID token with additional claims from a RDBMS. This extension is useful when claims from none userstore sources needs to be inserted into the ID token.
 
 ### Prerequisites
 Make sure followings are installed properly.
